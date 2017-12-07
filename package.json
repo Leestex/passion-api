@@ -8,6 +8,7 @@
     }
   },
   "scripts": {
+    "build": "babel src -d dist -s",
     "release": "standard-version"
   },
   "repository": "https://github.com/Leestex/passion-api.git",
@@ -15,6 +16,11 @@
   "license": "MIT",
   "private": true,
   "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-plugin-transform-async-to-generator": "^6.24.1",
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.26.0",
+    "babel-plugin-transform-es2017-object-entries": "^0.0.4",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
     "commitizen": "^2.9.6",
     "cz-conventional-changelog": "^2.1.0",
     "standard-version": "^4.2.0"
