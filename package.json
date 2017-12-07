@@ -2,8 +2,21 @@
   "name": "passion-api",
   "version": "0.0.1",
   "main": "index.js",
+  "config": {
+    "commitizen": {
+      "path": "cz-conventional-changelog"
+    }
+  },
+  "scripts": {
+    "release": "standard-version"
+  },
   "repository": "https://github.com/Leestex/passion-api.git",
   "author": "Nazar Kuzmenko <nazar.kuzmenko@gmail.com>",
   "license": "MIT",
-  "private": true
+  "private": true,
+  "devDependencies": {
+    "commitizen": "^2.9.6",
+    "cz-conventional-changelog": "^2.1.0",
+    "standard-version": "^4.2.0"
+  }
 }
