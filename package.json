@@ -1,0 +1,9 @@
+{
+  "name": "passion-api",
+  "version": "0.0.1",
+  "main": "index.js",
+  "repository": "https://github.com/Leestex/passion-api.git",
+  "author": "Nazar Kuzmenko <nazar.kuzmenko@gmail.com>",
+  "license": "MIT",
+  "private": true
+}
