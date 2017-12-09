@@ -1,0 +1,9 @@
+{
+  "logs": {
+    "level": "LOG_LEVEL",
+    "colorize": {
+      "__name": "LOG_COLORIZE",
+      "__format": "json"
+    }
+  }
+}
