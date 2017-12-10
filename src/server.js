@@ -8,7 +8,7 @@ import cors from 'cors'
 import router from './router'
 import { createLogger } from './modules/logger'
 
-const log = createLogger('server', true)
+const log = createLogger('server', { streamify: true })
 const server = express()
 
 // TODO: define cors policy
