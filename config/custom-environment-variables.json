@@ -1,4 +1,7 @@
 {
+  "server": {
+    "port": "PORT"
+  },
   "db": {
     "sqlite": {
       "uri": "DB_SQLITE_URI"

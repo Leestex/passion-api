@@ -29,7 +29,12 @@
     "standard-version": "^4.2.0"
   },
   "dependencies": {
+    "body-parser": "^1.18.2",
     "config": "^1.28.1",
+    "cors": "^2.8.4",
+    "express": "^4.16.2",
+    "helmet": "^3.9.0",
+    "morgan": "^1.9.0",
     "sequelize": "^4.27.0",
     "sqlite3": "^3.1.13",
     "winston": "^2.4.0"
