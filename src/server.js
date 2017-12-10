@@ -5,6 +5,7 @@ import config from 'config'
 import bodyParser from 'body-parser'
 import cors from 'cors'
 
+import router from './router'
 import { createLogger } from './modules/logger'
 
 const log = createLogger('server', true)
@@ -16,6 +17,7 @@ server.use(helmet())
 server.use(morgan('tiny', { stream: log.stream }))
 server.use(bodyParser.urlencoded({ extended: false }))
 server.use(bodyParser.json())
+server.use(router)
 
 export function start () {
   return new Promise((resolve, reject) => {
