@@ -25,3 +25,6 @@ dist
 
 # Configuration
 config/local.*
+
+# DataBase files
+storage.db

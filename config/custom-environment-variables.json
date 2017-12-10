@@ -1,4 +1,9 @@
 {
+  "db": {
+    "sqlite": {
+      "uri": "DB_SQLITE_URI"
+    }
+  },
   "logs": {
     "level": "LOG_LEVEL",
     "colorize": {

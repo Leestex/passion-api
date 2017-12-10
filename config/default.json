@@ -1,4 +1,9 @@
 {
+  "db": {
+    "sqlite": {
+      "uri": "sqlite:storage.db"
+    }
+  },
   "logs": {
     "level": "debug",
     "colorize": true
